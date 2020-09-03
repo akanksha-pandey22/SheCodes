@@ -8,4 +8,4 @@ This project contains HTML, CSS and JS
 * Go to Workshop1 folder
 * Type docker build -t akanksha-nginx . and Enter
 * docker run --name akanksha-nginx-container -d -p 80:80 akanksha-nginx
-* Got to Browser and type localhost
+* Go to Browser and type localhost
