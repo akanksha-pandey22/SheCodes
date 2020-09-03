@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akanksha|| Things I love doing</title>
+  </head>
+  <style>
+    body {
+      background-color: #faf9ea;
+    }
+
+    h1 {
+      text-align: center;
+      border-style: double;
+      border-color: #120a8f;
+      display: block;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 48px;
+      margin: 40px auto;
+    }
+
+    p {
+      text-align: center;
+      color: #215e21;
+      display: block;
+      opacity: 0.8;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    mark {
+      background-color: #ebe8fc;
+      color: #120a8f;
+    }
+
+    h2 {
+      text-align: center;
+      display: block;
+      padding: 5px;
+      margin: 0 auto;
+      color: #862a51;
+      font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+    }
+
+    li {
+      width: 40%;
+      border-style: dotted;
+      border-color: #484d46;
+      display: block;
+      color: #120a8f;
+      text-align: center;
+      list-style: none;
+      padding: 12px;
+      margin: 0 auto;
+      border-radius: 5px;
+      list-style: none;
+    }
+
+    strong {
+      text-align: center;
+      color: #484d46;
+      display: block;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    button {
+      margin: 20px auto;
+      display: block;
+      padding: 16px 24px;
+      font-size: 16px;
+      border: 1px solid #1a64d6;
+      border-radius: 30px;
+      transition: all 200ms ease;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.08);
+      background: #2f4f4f;
+      color: white;
+    }
+
+    button:hover {
+      background: white;
+      color: #1a64d6;
+      cursor: pointer;
+    }
+
+    li:hover {
+      background: #d1dad1;
+    }
+  </style>
+  <body>
+    <h1>
+      <mark>Things India Is Famous For 🇮🇳</mark>
+    </h1>
+    <p>
+      <em
+        ><mark>
+          "India is, the cradle of the human race, the birthplace of human
+          speech, the mother of history, the grandmother of legend, and the
+          great grandmother of tradition. <br />
+          Our most valuable and most instructive materials in the history of man
+          are treasured up in India only." - Mark Twain</mark
+        ></em
+      >
+    </p>
+
+    <h2>
+      <ul>
+        <li>
+          Spicy Food
+          <br />
+          <p>
+            India is called the Land of Spices, because it's the only country in
+            the world that produces as many varieties of different spices
+          </p>
+          <img
+            src="https://static.trip101.com/paragraph_media/pictures/001/843/081/large/indian-food-1784879_960_720.jpg?1586875478"
+            width="300"
+          />
+        </li>
+
+        <li>
+          Rich culture
+          <br />
+          <p>
+            India is identified as the birthplace of Hinduism and Buddhism, the
+            third and fourth largest religions.
+          </p>
+          <img
+            src="https://static.trip101.com/paragraph_media/pictures/001/843/082/large/mandala-2798415_960_720.jpg?1586875479"
+            width="300"
+          />
+        </li>
+
+        <li>
+          Colourful clothing
+          <br />
+          <p>
+            India has long been associated with colour thanks to its festivals,
+            costumes and food.
+          </p>
+          <img
+            src="https://static.trip101.com/paragraph_media/pictures/001/843/089/large/india-978488_1280.jpg?1586875481"
+            width="300"
+          />
+        </li>
+      </ul>
+    </h2>
+    <p>
+      <a href="https://en.wikipedia.org/wiki/India"
+        >Learn more about India on Wikipedia</a
+      >
+    </p>
+    <button>More facts</button>
+    <strong
+      >Coded by
+      <a href="https://www.linkedin.com/in/akanksha-pandey-44552822/"
+        >Akanksha Pandey</a
+      >
+    </strong>
+  </body>
+  <script>
+    function moreFactsButton() {
+      let name = prompt("What is your name?");
+      alert(`Thank you ${name} for visiting 😄. We will be in touch!`);
+    }
+    let moreButton = document.querySelector("button");
+    moreButton.addEventListener("click", moreFactsButton);
+  </script>
+</html>
