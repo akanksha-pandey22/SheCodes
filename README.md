@@ -1,4 +1,5 @@
 # SheCodes Challenge
+SheCodes Challenges and Projects
 This project contains HTML, CSS and JS
 
 ## These instructions can be used to get the project up and running on your local machine.
